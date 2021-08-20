@@ -1,0 +1,38 @@
+{
+  "name": "easy-express-sitemap-generator",
+  "version": "0.0.1",
+  "description": "This is an npm package for creating sitemaps easily with Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "fmt": "prettier --write '**/*.{js,json,md}'"
+  },
+  "keywords": [
+    "sitemap",
+    "easy",
+    "simple",
+    "express",
+    "sitemap",
+    "generator",
+    "generator"
+  ],
+  "author": "shinshin86 <shinshin86npm@gmail.com> (https://github.com/shinshin86)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinshin86/easy-express-sitemap-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinshin86/easy-express-sitemap-generator/issues"
+  },
+  "homepage": "https://github.com/shinshin86/easy-express-sitemap-generator#readme",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^9.0.3",
+    "prettier": "^2.3.2"
+  }
+}
