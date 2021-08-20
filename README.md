@@ -7,7 +7,7 @@ This is an npm package for creating sitemaps easily with Express.
 ```javascript
 const express = require('express');
 const app = express();
-const sitemapGenerator = require('easy-express-sitemap-generator');
+const generateSitemap = require('easy-express-sitemap-generator');
 
 app.get('/', (req, res) => {
   res.send('path: "https://example.com/"');
@@ -19,7 +19,7 @@ app.get('/about', (req, res) => {
 
 const YOUR_SITE_URL = 'http://example.com';
 
-const sitemap = sitemapGenerator(app, YOUR_SITE_URL);
+const sitemap = generateSitemap(app, YOUR_SITE_URL);
 
 console.log(sitemap);
 ```

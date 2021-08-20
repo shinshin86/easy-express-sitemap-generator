@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const sitemapGenerator = require('../index');
+const generateSitemap = require('../index');
 
 const TEST_SITE_URL = 'http://example.com';
 
@@ -21,7 +21,7 @@ describe('easy-express-sitemap-generator', () => {
 </urlset>`;
 
     const excludeUrls = ['/login'];
-    const sitemap = sitemapGenerator(app, TEST_SITE_URL, excludeUrls);
+    const sitemap = generateSitemap(app, TEST_SITE_URL, excludeUrls);
 
     // TODO: Error in string comparison
     expect(expectResult).to.is.a(sitemap);
@@ -49,7 +49,7 @@ describe('easy-express-sitemap-generator', () => {
 </urlset>`;
 
     const excludeUrls = ['/login', '/users/new'];
-    const sitemap = sitemapGenerator(app, TEST_SITE_URL, excludeUrls);
+    const sitemap = generateSitemap(app, TEST_SITE_URL, excludeUrls);
 
     // TODO: Error in string comparison
     expect(expectResult).to.is.a(sitemap);
