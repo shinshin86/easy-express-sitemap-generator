@@ -1,6 +1,6 @@
 {
   "name": "easy-express-sitemap-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is an npm package for creating sitemaps easily with Express.",
   "main": "index.js",
   "scripts": {
