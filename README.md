@@ -2,6 +2,14 @@
 
 This is an npm package for creating sitemaps easily with Express.
 
+## Install
+
+```sh
+npm install easy-express-sitemap-generator
+# or
+yarn add easy-express-sitemap-generator
+```
+
 ## Usage
 
 ```javascript
@@ -41,3 +49,7 @@ console.log(sitemap);
   </url>
 </urlset>
 ```
+
+## Author
+
+[Yuki Shindo](https://shinshin86.com)
