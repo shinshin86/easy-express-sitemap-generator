@@ -50,6 +50,10 @@ console.log(sitemap);
 </urlset>
 ```
 
+## Licence
+
+[MIT](https://github.com/shinshin86/easy-express-sitemap-generator/blob/main/LICENSE)
+
 ## Author
 
-[Yuki Shindo](https://shinshin86.com)
+[Yuki Shindo](https://shinshin86.com/en)
